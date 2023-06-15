@@ -1,0 +1,45 @@
+{
+    "adx_backtest": {
+        "symbol": "EURUSD",
+        "timeframe": "Daily",
+        "strategy": "ADX",
+        "period": 20,
+        "period_ma": 135,
+        "period_ro": 4,
+        "threshold": 20,
+        "atr": 14,
+        "trading_size": 0.05,
+        "cl_ratio": 2.0,
+        "tp_ratio": 2.0,
+        "decay": 10,
+        "trailing_stop": true
+        },
+    "kama_backtest": {
+        "symbol": "EURUSD",
+        "timeframe": "Daily",
+        "strategy": "KAMA",
+        "period": 13,
+        "period_ma": 20,
+        "atr": 14,
+        "trading_size": 0.05,
+        "cl_ratio": 2.0,
+        "tp_ratio": 2.0,
+        "decay": 10,
+        "trailing_stop": true,
+        "cross_tp": false
+        },
+    "rsi_backtest": {
+        "symbol": "EURUSD",
+        "timeframe": "Daily",
+        "strategy": "RSI",
+        "period": 9,
+        "period_ma": 115,
+        "rsi_range": 15,
+        "atr": 14,
+        "trading_size": 0.05,
+        "cl_ratio": 1.5,
+        "tp_ratio": 1.5,
+        "decay": 5,
+        "trailing_stop": true
+        }
+}

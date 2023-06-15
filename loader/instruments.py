@@ -1,0 +1,16 @@
+inst_prop = {
+    'EURUSD': {'pip': 0.01, 'type': 'currency'}, 
+    'USDJPY': {'pip': 1.0, 'type': 'currency'},
+    'AUDUSD': {'pip': 0.01, 'type': 'currency'},
+    'USDCAD': {'pip': 0.01, 'type': 'currency'},
+    'USDCHF': {'pip': 0.01, 'type': 'currency'},
+    'GBPUSD': {'pip': 0.01, 'type': 'currency'},
+    'EURJPY': {'pip': 1.0, 'type': 'currency'}, 
+    'EURGBP': {'pip': 0.01, 'type': 'currency'}, 
+    'EURAUD': {'pip': 0.01, 'type': 'currency'}, 
+    'NZDUSD': {'pip': 0.01, 'type': 'currency'}, 
+    'AUDNZD': {'pip': 0.01, 'type': 'currency'}, 
+    'GBPJPY': {'pip': 1.0, 'type': 'currency'}, 
+    'EURCHF': {'pip': 0.01, 'type': 'currency'}, 
+    'AUDJPY': {'pip': 1.0, 'type': 'currency'}, 
+    }
