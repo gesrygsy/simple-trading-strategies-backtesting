@@ -18,8 +18,8 @@ adx_backtest_param = {
     'period': 20, # strategy indicator period
     'period_ma': 120, # strategy indicator MovingAverage period
     'period_ro': 4, # strategy indicator Rolling period
-    'threshold': 15, # threshold use by signal generate
-    'atr': 14, # AverageTrueRange to calculate trading entry lot for every timeperiod
+    'threshold': 15, # threshold used to trigger signals
+    'atr': 14, # AverageTrueRange to calculate trading entry size for every timeperiod
     'trading_size': 0.05, # trading size
     'cl_ratio': 1.0, # CutLoss (StopLoss) ratio, depend on value of atr
     'tp_ratio': 1.0, # TakeProfit ratio, depend on value of atr
@@ -139,7 +139,7 @@ def main():
     # rsi_backtest(rsi_backtest_param)
     # rsi_backtest(rsi_batch_param)
 
-    # composite_param, symbols = import_composite_param(symbol='EURUSD', trading_mode=False, trading_size=0.04, timeframe=timeframe, data_source=data_source)
+    # composite_param, symbols = import_composite_param(symbol='EURUSD', trading_mode=False, trading_size=0.05, timeframe=timeframe, data_source=data_source)
     # composite_backtest(composite_param, symbols, deposit=5000, output_csv=True, data_source=data_source, to_date='', plot=True)
 
     print('Completed.')

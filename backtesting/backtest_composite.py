@@ -156,7 +156,7 @@ def composite_backtest(com_param, symbols, deposit=1000, output_csv=True, plot=T
             file_name = f"check trading mode signal {param['timeframe']} (size{str(param['trading_size'])}).csv"
         try:
             results.to_csv(data_dir + file_name, float_format='%.4f', index=True)
-        except FileNotFoundError as e:
+        except (OSError, FileNotFoundError) as e:
             print('Error: ', e)
             print('Creating folder...')
             makedirs(data_dir, exist_ok=True)
